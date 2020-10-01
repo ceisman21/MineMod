@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coopsmod:blocks/bottomsilverore",
+    "up": "coopsmod:blocks/bottomsilverore",
+    "north": "coopsmod:blocks/bottomsilverore",
+    "east": "coopsmod:blocks/bottomsilverore",
+    "south": "coopsmod:blocks/bottomsilverore",
+    "west": "coopsmod:blocks/bottomsilverore",
+    "particle": "coopsmod:blocks/bottomsilverore"
+  }
+}

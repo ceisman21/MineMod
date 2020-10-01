@@ -1,10 +1,42 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "MuzzleLoader",
+      "type": "gun",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "muzzle_loader"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ingot"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ore"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.coopsmod.muzzle_loader": "Muzzle Loader",
+      "block.coopsmod.silver_ore": "Silver Ore",
+      "item.coopsmod.silver_ingot": "Silver Ingot"
+    }
   },
   "workspaceSettings": {
     "modid": "coopsmod",
