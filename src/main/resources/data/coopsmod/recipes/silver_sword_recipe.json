@@ -1,0 +1,24 @@
+{
+  "group": "coopsmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "coopsmod:silver_ingot"
+    },
+    "1": {
+      "item": "coopsmod:silver_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "coopsmod:silver_sword",
+    "count": 1
+  }
+}
