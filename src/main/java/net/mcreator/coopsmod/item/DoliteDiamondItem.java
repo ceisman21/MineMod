@@ -11,11 +11,11 @@ import net.minecraft.block.BlockState;
 import net.mcreator.coopsmod.CoopsmodModElements;
 
 @CoopsmodModElements.ModElement.Tag
-public class DoliteItem extends CoopsmodModElements.ModElement {
-	@ObjectHolder("coopsmod:dolite")
+public class DoliteDiamondItem extends CoopsmodModElements.ModElement {
+	@ObjectHolder("coopsmod:dolite_diamond")
 	public static final Item block = null;
-	public DoliteItem(CoopsmodModElements instance) {
-		super(instance, 14);
+	public DoliteDiamondItem(CoopsmodModElements instance) {
+		super(instance, 17);
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class DoliteItem extends CoopsmodModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MATERIALS).maxStackSize(64));
-			setRegistryName("dolite");
+			setRegistryName("dolite_diamond");
 		}
 
 		@Override

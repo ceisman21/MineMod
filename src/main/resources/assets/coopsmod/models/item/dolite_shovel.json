@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "coopsmod:items/dolite_sword"
+    "layer0": "coopsmod:items/dolite_shovel"
   }
 }

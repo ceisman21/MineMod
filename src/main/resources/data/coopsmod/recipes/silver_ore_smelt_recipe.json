@@ -1,0 +1,12 @@
+{
+  "group": "coopsmod",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "coopsmod:silver_ore"
+  },
+  "result": {
+    "item": "coopsmod:silver_ingot"
+  }
+}

@@ -4,7 +4,7 @@ package net.mcreator.coopsmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
@@ -12,16 +12,16 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.coopsmod.CoopsmodModElements;
 
 @CoopsmodModElements.ModElement.Tag
-public class DoliteSwordItem extends CoopsmodModElements.ModElement {
-	@ObjectHolder("coopsmod:dolite_sword")
+public class DolitePickaxeItem extends CoopsmodModElements.ModElement {
+	@ObjectHolder("coopsmod:dolite_pickaxe")
 	public static final Item block = null;
-	public DoliteSwordItem(CoopsmodModElements instance) {
-		super(instance, 20);
+	public DolitePickaxeItem(CoopsmodModElements instance) {
+		super(instance, 18);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 902;
 			}
@@ -45,7 +45,7 @@ public class DoliteSwordItem extends CoopsmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("dolite_sword"));
+		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("dolite_pickaxe"));
 	}
 }

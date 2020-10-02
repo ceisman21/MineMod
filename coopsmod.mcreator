@@ -110,6 +110,159 @@
       "registry_name": "silver_hoe_recipe"
     },
     {
+      "name": "SilverOreSmeltRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silver_ore_smelt_recipe"
+    },
+    {
+      "name": "DoliteDiamond",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_diamond"
+    },
+    {
+      "name": "DolitePickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_pickaxe"
+    },
+    {
+      "name": "DoliteAxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_axe"
+    },
+    {
+      "name": "DoliteSword",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_sword"
+    },
+    {
+      "name": "DoliteShovel",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_shovel"
+    },
+    {
+      "name": "DoliteHoe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_hoe"
+    },
+    {
+      "name": "DolitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_pickaxe_recipe"
+    },
+    {
+      "name": "DoliteAxeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_axe_recipe"
+    },
+    {
+      "name": "DoliteSwordRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_sword_recipe"
+    },
+    {
+      "name": "DoliteShovelRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_shovel_recipe"
+    },
+    {
+      "name": "DoliteHoeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dolite_hoe_recipe"
+    },
+    {
+      "name": "PinkGrass",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_grass"
+    },
+    {
+      "name": "PinkBiome",
+      "type": "biome",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_biome"
+    },
+    {
+      "name": "PinkLog",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_log"
+    },
+    {
+      "name": "PinkLeaf",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_leaf"
+    },
+    {
+      "name": "Pinkfruit",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pinkfruit"
+    },
+    {
       "name": "Dolite",
       "type": "item",
       "sortid": 14,
@@ -117,15 +270,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dolite"
-    },
-    {
-      "name": "DoliteSword",
-      "type": "tool",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "dolite_sword"
     }
   ],
   "variable_elements": [],
@@ -133,14 +277,23 @@
   "language_map": {
     "en_us": {
       "item.coopsmod.dolite_sword": "Dolite Sword",
-      "item.coopsmod.silver_sword": "Silver Sword",
       "block.coopsmod.silver_ore": "Silver Ore",
+      "block.coopsmod.pink_leaf": "Pink Leaf",
+      "block.coopsmod.pink_grass": "Pink Grass",
       "item.coopsmod.silver_pickaxe": "Silver Pickaxe",
-      "item.coopsmod.silver_axe": "Silver Axe",
+      "item.coopsmod.dolite_axe": "Dolite Axe",
       "item.coopsmod.silver_shovel": "Silver Shovel",
-      "item.coopsmod.silver_hoe": "Silver Hoe",
+      "item.coopsmod.silver_axe": "Silver Axe",
       "item.coopsmod.silver_ingot": "Silver Ingot",
-      "item.coopsmod.dolite": "Dolite"
+      "item.coopsmod.silver_sword": "Silver Sword",
+      "item.coopsmod.dolite_shovel": "Dolite Shovel",
+      "item.coopsmod.dolite_diamond": "Dolite Ingot",
+      "block.coopsmod.pink_log": "Pink Log",
+      "item.coopsmod.dolite_hoe": "Dolite Hoe",
+      "item.coopsmod.silver_hoe": "Silver Hoe",
+      "item.coopsmod.dolite_pickaxe": "Dolite Pickaxe",
+      "item.coopsmod.pinkfruit": "Pinkfruit",
+      "item.coopsmod.dolite": "Dolite Ingot"
     }
   },
   "workspaceSettings": {

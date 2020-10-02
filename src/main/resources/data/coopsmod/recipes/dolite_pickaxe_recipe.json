@@ -1,0 +1,30 @@
+{
+  "group": "coopsmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "coopsmod:dolite_diamond"
+    },
+    "1": {
+      "item": "coopsmod:dolite_diamond"
+    },
+    "2": {
+      "item": "coopsmod:dolite_diamond"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "coopsmod:dolite_pickaxe",
+    "count": 1
+  }
+}

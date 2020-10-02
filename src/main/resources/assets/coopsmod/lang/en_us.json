@@ -1,11 +1,20 @@
 {
   "item.coopsmod.dolite_sword": "Dolite Sword",
-  "item.coopsmod.silver_sword": "Silver Sword",
   "block.coopsmod.silver_ore": "Silver Ore",
+  "block.coopsmod.pink_leaf": "Pink Leaf",
+  "block.coopsmod.pink_grass": "Pink Grass",
   "item.coopsmod.silver_pickaxe": "Silver Pickaxe",
-  "item.coopsmod.silver_axe": "Silver Axe",
+  "item.coopsmod.dolite_axe": "Dolite Axe",
   "item.coopsmod.silver_shovel": "Silver Shovel",
-  "item.coopsmod.silver_hoe": "Silver Hoe",
+  "item.coopsmod.silver_axe": "Silver Axe",
   "item.coopsmod.silver_ingot": "Silver Ingot",
-  "item.coopsmod.dolite": "Dolite"
+  "item.coopsmod.silver_sword": "Silver Sword",
+  "item.coopsmod.dolite_shovel": "Dolite Shovel",
+  "item.coopsmod.dolite_diamond": "Dolite Ingot",
+  "block.coopsmod.pink_log": "Pink Log",
+  "item.coopsmod.dolite_hoe": "Dolite Hoe",
+  "item.coopsmod.silver_hoe": "Silver Hoe",
+  "item.coopsmod.dolite_pickaxe": "Dolite Pickaxe",
+  "item.coopsmod.pinkfruit": "Pinkfruit",
+  "item.coopsmod.dolite": "Dolite Ingot"
 }

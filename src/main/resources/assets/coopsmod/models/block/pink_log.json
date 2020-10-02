@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coopsmod:blocks/pinkwoodbottom",
+    "up": "coopsmod:blocks/pinkwoodbottom",
+    "north": "coopsmod:blocks/pinkwoodside",
+    "east": "coopsmod:blocks/pinkwoodside",
+    "south": "coopsmod:blocks/pinkwoodside",
+    "west": "coopsmod:blocks/pinkwoodside",
+    "particle": "coopsmod:blocks/pinkwoodbottom"
+  }
+}

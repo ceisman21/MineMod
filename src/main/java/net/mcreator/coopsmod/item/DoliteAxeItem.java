@@ -4,24 +4,24 @@ package net.mcreator.coopsmod.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
 
 import net.mcreator.coopsmod.CoopsmodModElements;
 
 @CoopsmodModElements.ModElement.Tag
-public class DoliteSwordItem extends CoopsmodModElements.ModElement {
-	@ObjectHolder("coopsmod:dolite_sword")
+public class DoliteAxeItem extends CoopsmodModElements.ModElement {
+	@ObjectHolder("coopsmod:dolite_axe")
 	public static final Item block = null;
-	public DoliteSwordItem(CoopsmodModElements instance) {
-		super(instance, 20);
+	public DoliteAxeItem(CoopsmodModElements instance) {
+		super(instance, 19);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new SwordItem(new IItemTier() {
+		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
 				return 902;
 			}
@@ -45,7 +45,7 @@ public class DoliteSwordItem extends CoopsmodModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
-		}.setRegistryName("dolite_sword"));
+		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}.setRegistryName("dolite_axe"));
 	}
 }

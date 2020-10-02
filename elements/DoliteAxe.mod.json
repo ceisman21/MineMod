@@ -3,14 +3,14 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dolite_sword",
+    "texture": "dolite_axe",
     "customModelName": "Normal",
-    "name": "Dolite Sword",
+    "name": "Dolite Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "TOOLS"
     },
-    "toolType": "Sword",
+    "toolType": "Axe",
     "harvestLevel": 5,
     "efficiency": 10.0,
     "attackSpeed": 1.0,
