@@ -3,7 +3,6 @@ package net.mcreator.coopsmod.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -54,12 +53,10 @@ public class PinkBiomeBiome extends CoopsmodModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
+			super(new Biome.Builder().downfall(0.5f).depth(0.3f).scale(1.2000000000000002f).temperature(0.7f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.NONE).waterColor(-1011242).waterFogColor(-1011242)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(PinkGrassBlock.block.getDefaultState(),
 							Blocks.COARSE_DIRT.getDefaultState(), Blocks.COARSE_DIRT.getDefaultState())));
@@ -79,6 +76,18 @@ public class PinkBiomeBiome extends CoopsmodModElements.ModElement {
 									new SimpleBlockStateProvider(PinkLeafBlock.block.getDefaultState()))).baseHeight(6)
 											.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(5, 0.1F, 1))));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getGrassColor(double posX, double posZ) {
+			return -16756644;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor() {
+			return -16756644;
 		}
 
 		@OnlyIn(Dist.CLIENT)

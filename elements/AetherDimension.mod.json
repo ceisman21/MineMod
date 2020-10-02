@@ -1,0 +1,57 @@
+{
+  "_fv": 10,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:PinkLog"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 0.09999999999999999,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Aether Dimension Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "muzzleloader",
+    "portalTexture": "aethergatefacade",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:PinkBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Fluff"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -4138753,
+      "frgbvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "fvalue": [
+        0.753,
+        0.847,
+        1.0
+      ],
+      "falpha": 1.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false
+  }
+}

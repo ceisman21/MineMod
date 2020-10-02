@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coopsmod:blocks/aetherfluff",
+    "up": "coopsmod:blocks/aetherfluff",
+    "north": "coopsmod:blocks/aetherfluff",
+    "east": "coopsmod:blocks/aetherfluff",
+    "south": "coopsmod:blocks/aetherfluff",
+    "west": "coopsmod:blocks/aetherfluff",
+    "particle": "coopsmod:blocks/aetherfluff"
+  }
+}
